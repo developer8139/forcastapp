@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.cards {
+  display: inline-block;
+  width: 250px;
+  height: 225px;
+  background-color: #26282A;
+  cursor: pointer;
+  transition: transform 5.3s ease-in;
+}
+
+.cards:hover {
+  transform: scale(1.06);
+}
+
+.container {
+  display: inline;
+}
